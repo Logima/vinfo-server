@@ -21,8 +21,10 @@ The hostname of a website should be inserted under "MyIP Host" without the http:
 
 ### Now Playing -information
 Now Playing -information is being read from a text-file and is assumed to be in the following format:
+
     artist -+- title -+- "1" if paused -+- position -+- length
 
 I use foobar2000 with [Now Playing Simple](http://skipyrich.com/wiki/Foobar2000:Now_Playing_Simple)-plugin to generate this.
 Formatting string for Now Playing Simple:
+
     $if(%isplaying%,%artist% -+- %title% -+- %ispaused% -+- %playback_time% -+- %length%)
