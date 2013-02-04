@@ -3,6 +3,7 @@
 ## See vital information about your computer on your N900.
 This is the "server" software which sends information about your computer over UDP to a specified IP-address (your N900).
 To be used with the Nokia N900 [display script](https://github.com/Logima/vinfo-display).
+It's coded on .NET 4.0 C# and requires [Core Audio API](http://www.codeproject.com/Articles/18520/Vista-Core-Audio-API-Master-Volume-Control).
 
 Data to send:
 * CPU-usage per core
